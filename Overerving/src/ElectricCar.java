@@ -4,6 +4,12 @@ public class ElectricCar extends Car{
         super(numOfWheels);
     }
 
+    @Override
+    public void maintenance() {
+        super.maintenance();
+        System.out.println("controleer de accu's");
+    }
+
     public void replaceCord() {
         System.out.println("Car needs a longer powercord... ");
     }

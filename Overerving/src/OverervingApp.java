@@ -20,7 +20,7 @@ public class OverervingApp {
         for (Vehicle v : vehicles) {
             v.move();
             v.brake();
-            // Verklaar woorom de hasFlatTyre niet direct beschikbaar is?
+            // Verklaar waarom de hasFlatTyre niet direct beschikbaar is?
             if (v instanceof Bicycle) {
                 // Casting
                 System.out.println("CAST => Running flat... " + ((Bicycle)v).hasFlatTyre());

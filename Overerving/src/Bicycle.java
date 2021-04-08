@@ -4,6 +4,7 @@ public class Bicycle extends Vehicle{
         super(2);
     }
 
+
     @Override
     public void maintenance() {
         if (hasFlatTyre()) {
