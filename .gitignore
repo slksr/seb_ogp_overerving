@@ -1,4 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+# Jetbrains
+.idea/
+
 ### Maven template
 target/
 pom.xml.tag
