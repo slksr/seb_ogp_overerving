@@ -12,11 +12,11 @@ public class Bicycle extends Vehicle{
         }
     }
 
-    @Override
-    public void brake() {
-        //super.brake();
-        System.out.println(this.getClass().getName() + " only braking with 1 wheel");
-    }
+//    @Override
+//    public void brake() {
+//        super.brake();
+//        System.out.println(this.getClass().getName() + " only braking with 1 wheel");
+//    }
 
     public boolean hasFlatTyre() {
         return true;
