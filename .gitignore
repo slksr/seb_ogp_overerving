@@ -22,6 +22,9 @@ buildNumber.properties
 # BlueJ files
 *.ctxt
 
+# MacOS
+.DS_Store
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
